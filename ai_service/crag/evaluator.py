@@ -99,11 +99,11 @@ single chunk contains a verbatim answer. RAG is designed to combine information 
 
 Return ONLY valid JSON (no markdown, no extra text) with exactly three fields:
 
-{
+{{
   "topic_relevance": <float 0.0–1.0>,
   "answerability": "<DIRECT|SYNTHESIZABLE|INSUFFICIENT>",
   "reasoning": "<1–2 sentences>"
-}
+}}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 FIELD DEFINITIONS
